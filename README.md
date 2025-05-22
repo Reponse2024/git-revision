@@ -277,9 +277,9 @@ To https://github.com/Reponse2024/git-revision.git
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (ft/service-redesign)
 $
 ```
-# Exercise 1 from bundle 1
-# Bundle 2
-## Exercise 2
+# Git Revision
+## Bundle 2
+### Exercise 2
 
 ```bash
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (ft/service-redesign)
@@ -594,7 +594,7 @@ User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
 $
 ```
 # Bundle 4
-# Exercise 2
+## Exercise 2
 
 ```bash
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
