@@ -2,7 +2,7 @@
 ## Exercise 2
 ```bash
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (ft/home-page-redesign)
-$ git rebase origin main
+$ git rebase origin main 
 Current branch main is up to date.
 
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
