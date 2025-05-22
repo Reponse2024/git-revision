@@ -1,7 +1,7 @@
 # Git Revision
 ## Bundle 1
 ### Exercise 2
-...bash
+```bash
 
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (dev)
 $ git add home.html
@@ -107,4 +107,4 @@ HEAD is now at 6f0c62b Restored the changes for two files, about.html, and home.
 
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (dev)
 $
-...
+```
