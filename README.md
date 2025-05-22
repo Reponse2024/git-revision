@@ -156,3 +156,49 @@ branch 'ft/cafe' set up to track 'origin/ft/cafe'.
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (ft/cafe)
 $
 ```
+# Bundle 6
+## Exercise 2
+```bash
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (main)
+$ git checkout -b bugfix/fix-contact
+Switched to a new branch 'bugfix/fix-contact'
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (bugfix/fix-contact)
+$ git add index-4.html
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (bugfix/fix-contact)
+$ git commit -m "Updated web title"
+[bugfix/fix-contact 588f414] Updated web title
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (bugfix/fix-contact)
+$ git push
+fatal: The current branch bugfix/fix-contact has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bugfix/fix-contact
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (bugfix/fix-contact)
+$ git push --set-upstream origin bugfix/fix-contact
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 304 bytes | 10.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'bugfix/fix-contact' on GitHub by visiting:
+remote:      https://github.com/Reponse2024/git-cafe-exercise/pull/new/bugfix/fix-contact
+remote:
+To https://github.com/Reponse2024/git-cafe-exercise.git
+ * [new branch]      bugfix/fix-contact -> bugfix/fix-contact
+branch 'bugfix/fix-contact' set up to track 'origin/bugfix/fix-contact'.
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (bugfix/fix-contact)
+$
+```
