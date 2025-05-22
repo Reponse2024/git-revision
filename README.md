@@ -201,17 +201,6 @@ $ git commit -m "Updated web title"
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (bugfix/fix-contact)
-$ git push
-fatal: The current branch bugfix/fix-contact has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin bugfix/fix-contact
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
-
-User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (bugfix/fix-contact)
 $ git push --set-upstream origin bugfix/fix-contact
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
