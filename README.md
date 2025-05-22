@@ -125,3 +125,34 @@ To https://github.com/Reponse2024/git-revision-NNew.git
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
 $
 ```
+# Bundle 5
+## Exercise 2
+```bash
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (ft/cafe)
+$ git add .
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (ft/cafe)
+$ git commit -m "Updated index.html"
+[ft/cafe 188e596] Updated index.html
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (ft/cafe)
+$ git push --set-upstream origin ft/cafe
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 174.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'ft/cafe' on GitHub by visiting:
+remote:      https://github.com/Reponse2024/git-cafe-exercise/pull/new/ft/cafe
+remote:
+To https://github.com/Reponse2024/git-cafe-exercise.git
+ * [new branch]      ft/cafe -> ft/cafe
+branch 'ft/cafe' set up to track 'origin/ft/cafe'.
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-cafe-exercise (ft/cafe)
+$
+```
