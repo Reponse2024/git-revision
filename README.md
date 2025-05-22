@@ -74,8 +74,8 @@ $ git commit -m "Restored the changes for two files, about.html, and home.html"
 # Git Revision
 ## Bundle 1
 ### Exercise 2
-```bash
 
+```bash
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (dev)
 $ git add home.html
 
@@ -248,9 +248,10 @@ To https://github.com/Reponse2024/git-revision.git
 
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
 $
-# Exercise 1 from bundle 1
-# Bundle 2
-## Exercise 2
+```
+# Git Revision
+## Bundle 2
+### Exercise 2
 ```bash
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (ft/service-redesign)
 $ git merge main
@@ -595,7 +596,6 @@ $
 ```
 # Bundle 4
 ## Exercise 2
-
 ```bash
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
 $ git checkout -b ft/footer
